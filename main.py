@@ -1,9 +1,9 @@
 import math
 
-h = 1
-x1 = 1
+x1 = float(input("x1 "))
+h = float(input("крок "))
 
-eps = 0.003
+eps = float(input("точність "))
 
 
 def opt(w, a, b, c, h):
